@@ -65,7 +65,8 @@ public class GuessingGame implements ActionListener{
       userGuess.setText("");
     }
     else if(ae.getActionCommand().equals("Play Again")){
-      int randomNum = r.nextInt(100)+1;
+      int randomNum2 = r.nextInt(100)+1;
+      randomNum= randomNum2;
       jlabPrompt.setText("Enter your guess: "); 
       jlabIndicator.setText(""); 
       jlabDisplay.setText("");
